@@ -1,20 +1,20 @@
-# API Factures FastAPI
+## API Factures FastAPI
 
 API simple pour gérer clients et factures.
 
-## Installation
+### Installation
 
-### Docker
+#### Docker
 ```bash
 docker build -t invoice-api .
 docker run -p 8000:80 invoice-api
 ```
 
-### Local
+#### Local
 ```bash
 pip install fastapi uvicorn
 uvicorn app.main:app --reload
 ```
 
-## Documentation
+### Documentation
 - Swagger: http://localhost:8000/docs
